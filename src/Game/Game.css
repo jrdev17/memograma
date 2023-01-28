@@ -1,0 +1,13 @@
+.table {
+  max-width: 60%;
+
+  margin-right: auto;
+  margin-left: auto;
+
+  padding: 0.3125em;
+  display: grid;
+  flex-direction: row;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 0.3125em;
+  background-color: darkcyan;
+}
